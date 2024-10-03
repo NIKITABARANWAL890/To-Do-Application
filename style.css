@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.6rem;
+}
+.inputData{
+    display: flex;
+    gap: 1rem;
+
+    input{
+        border-radius: 8px;
+        border: none;
+        width: 400px;
+        padding: 0.6rem 1rem;
+        font-size: 18px;
+    }
+    button{
+        padding: 0.4rem;
+        border-radius: 6px;
+        border: none;
+        background-color:rgb(255, 174, 0) ;
+        font-weight: 500;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgba(255, 174, 0, 0.814);
+    }
+}
+.addedTask{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.8rem;
+    font-weight: 500;
+    font-size: 24px;
+}
